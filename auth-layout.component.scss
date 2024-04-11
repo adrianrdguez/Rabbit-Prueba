@@ -1,0 +1,9 @@
+@import "./../../../../shared/shared.styles.scss";
+
+.wd-auth {
+  &__form {
+    &__label {
+      @apply block text-sm font-medium text-gray-700;
+    }
+  }
+}
