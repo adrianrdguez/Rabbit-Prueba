@@ -6,7 +6,6 @@ import { StoreComponent } from '@features/store/pages/store/store.component';
 import { LastMileService } from '@features/store/services/last-mile.service';
 import { StoreService } from '@features/store/services/store.service';
 import { loader } from '@shared/rxjs-operators/loader.operator';
-import { toaster } from '@shared/rxjs-operators/toast.operator';
 import { Subject, of } from 'rxjs';
 import { finalize, switchMap, takeUntil } from 'rxjs/operators';
 /**
